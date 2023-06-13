@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './shared/material/material.module';
 import { HttpClientModule } from '@angular/common/http';
-import { StoreModule } from '@ngrx/store';
-import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+/* import { StoreModule } from '@ngrx/store';
+import { StoreDevtoolsModule } from '@ngrx/store-devtools'; */
 
 @NgModule({
   declarations: [AppComponent],
@@ -17,8 +17,8 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
     BrowserAnimationsModule,
     MaterialModule,
     HttpClientModule,
-    StoreModule.forRoot({}, {}),
-    StoreDevtoolsModule.instrument({ name: 'TEST' }),
+    /* StoreModule.forRoot({}, {}),
+    StoreDevtoolsModule.instrument({ name: 'TEST' }), */
   ],
   providers: [],
   bootstrap: [AppComponent],
